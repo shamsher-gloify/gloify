@@ -14,3 +14,13 @@ __pycache__/
 
 # Ignore .env files
 .env
+
+
+# Ignore Celery log files
+celery.log
+
+# Ignore Celery Beat log files
+beat.log
+
+# Ignore SQLite database file
+db.sqlite3

@@ -191,3 +191,28 @@ you should set broker_connection_retry_on_startup to True.
 [2024-03-19 10:22:00,054: INFO/MainProcess] Task beat_test[cdd4ae7b-cac3-4751-bc41-27ab403905d2] received
 [2024-03-19 10:22:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
 [2024-03-19 10:22:00,055: INFO/ForkPoolWorker-7] Task beat_test[cdd4ae7b-cac3-4751-bc41-27ab403905d2] succeeded in 0.0007694480009377003s: None
+[2024-03-19 10:34:50,467: WARNING/MainProcess] /home/shamsher/BackendProjects/GloifyApi/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-03-19 10:34:50,472: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2024-03-19 10:34:50,472: WARNING/MainProcess] /home/shamsher/BackendProjects/GloifyApi/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-03-19 10:34:50,473: INFO/MainProcess] mingle: searching for neighbors
+[2024-03-19 10:34:51,478: INFO/MainProcess] mingle: all alone
+[2024-03-19 10:34:51,493: INFO/MainProcess] celery@shamsher ready.
+[2024-03-19 10:35:35,298: INFO/MainProcess] Task beat_test[4b1bba5e-2637-4f4b-b279-d23bd680b7db] received
+[2024-03-19 10:35:35,299: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:35:35,302: INFO/ForkPoolWorker-7] Task beat_test[4b1bba5e-2637-4f4b-b279-d23bd680b7db] succeeded in 0.002997838000737829s: None
+[2024-03-19 10:36:00,018: INFO/MainProcess] Task beat_test[645a99c6-6f29-4c3d-af41-d1b7823eff22] received
+[2024-03-19 10:36:00,020: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:36:00,021: INFO/ForkPoolWorker-7] Task beat_test[645a99c6-6f29-4c3d-af41-d1b7823eff22] succeeded in 0.0018604060005600331s: None
+[2024-03-19 10:37:00,051: INFO/MainProcess] Task beat_test[6e7cd9fa-680f-4a94-8842-80d92ddec60f] received
+[2024-03-19 10:37:00,051: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:37:00,052: INFO/ForkPoolWorker-7] Task beat_test[6e7cd9fa-680f-4a94-8842-80d92ddec60f] succeeded in 0.0007706959986535367s: None

@@ -56,3 +56,7 @@
 [2024-03-19 10:20:00,049: INFO/MainProcess] Scheduler: Sending due task beat_test (beat_test)
 [2024-03-19 10:21:00,031: INFO/MainProcess] Scheduler: Sending due task beat_test (beat_test)
 [2024-03-19 10:22:00,051: INFO/MainProcess] Scheduler: Sending due task beat_test (beat_test)
+[2024-03-19 10:35:35,254: INFO/MainProcess] beat: Starting...
+[2024-03-19 10:35:35,292: INFO/MainProcess] Scheduler: Sending due task beat_test (beat_test)
+[2024-03-19 10:36:00,015: INFO/MainProcess] Scheduler: Sending due task beat_test (beat_test)
+[2024-03-19 10:37:00,049: INFO/MainProcess] Scheduler: Sending due task beat_test (beat_test)
