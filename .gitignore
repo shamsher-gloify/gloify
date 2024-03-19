@@ -1,0 +1,16 @@
+# Ignore files with .pyc and .pyo extensions
+*.pyc
+*.pyo
+
+# Ignore Django migration files
+*/migrations/*
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python bytecode cache
+__pycache__/
+
+
+# Ignore .env files
+.env

@@ -1,0 +1,193 @@
+[2024-03-19 09:26:15,850: WARNING/MainProcess] /home/shamsher/BackendProjects/GloifyApi/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-03-19 09:26:15,855: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2024-03-19 09:26:15,855: WARNING/MainProcess] /home/shamsher/BackendProjects/GloifyApi/venv/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-03-19 09:26:15,856: INFO/MainProcess] mingle: searching for neighbors
+[2024-03-19 09:26:16,862: INFO/MainProcess] mingle: all alone
+[2024-03-19 09:26:16,873: INFO/MainProcess] celery@shamsher ready.
+[2024-03-19 09:26:19,723: INFO/MainProcess] Task beat_test[796d694f-f59a-4960-b384-d28b6f029690] received
+[2024-03-19 09:26:19,724: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:26:19,727: INFO/ForkPoolWorker-7] Task beat_test[796d694f-f59a-4960-b384-d28b6f029690] succeeded in 0.0031487419983022846s: None
+[2024-03-19 09:27:00,033: INFO/MainProcess] Task beat_test[7bb1a391-fafe-4753-942e-53b696d16c0e] received
+[2024-03-19 09:27:00,035: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:27:00,036: INFO/ForkPoolWorker-7] Task beat_test[7bb1a391-fafe-4753-942e-53b696d16c0e] succeeded in 0.0020635560013033682s: None
+[2024-03-19 09:28:00,054: INFO/MainProcess] Task beat_test[c82832f0-cf01-489a-9322-ebe061a26413] received
+[2024-03-19 09:28:00,056: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:28:00,056: INFO/ForkPoolWorker-7] Task beat_test[c82832f0-cf01-489a-9322-ebe061a26413] succeeded in 0.0010312089998478768s: None
+[2024-03-19 09:29:00,053: INFO/MainProcess] Task beat_test[9a2e6117-23eb-4b30-a23f-d9337134ae13] received
+[2024-03-19 09:29:00,054: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:29:00,056: INFO/ForkPoolWorker-7] Task beat_test[9a2e6117-23eb-4b30-a23f-d9337134ae13] succeeded in 0.0015929620003589662s: None
+[2024-03-19 09:30:00,055: INFO/MainProcess] Task beat_test[f673e1f6-2b08-4e60-bc46-9d50cc8fb018] received
+[2024-03-19 09:30:00,057: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:30:00,058: INFO/ForkPoolWorker-7] Task beat_test[f673e1f6-2b08-4e60-bc46-9d50cc8fb018] succeeded in 0.0014431130002776626s: None
+[2024-03-19 09:30:53,445: INFO/MainProcess] Task celery_test[901e9a64-6c4a-4857-a353-7e14cdf5b5da] received
+[2024-03-19 09:30:53,446: WARNING/ForkPoolWorker-7] OK shamsher
+[2024-03-19 09:30:53,446: INFO/MainProcess] Task apis.tasks.celery_test_async[0538d38b-9286-4a5b-b3a2-6cff0667d22e] received
+[2024-03-19 09:30:53,447: INFO/ForkPoolWorker-7] Task celery_test[901e9a64-6c4a-4857-a353-7e14cdf5b5da] succeeded in 0.0007220410006993916s: None
+[2024-03-19 09:30:53,447: WARNING/ForkPoolWorker-8] ASYNC OK singh
+[2024-03-19 09:30:53,450: INFO/ForkPoolWorker-8] Task apis.tasks.celery_test_async[0538d38b-9286-4a5b-b3a2-6cff0667d22e] succeeded in 0.003087220000452362s: None
+[2024-03-19 09:31:00,054: INFO/MainProcess] Task beat_test[496b1106-161e-4dd6-aa82-6a06a27dcccd] received
+[2024-03-19 09:31:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:31:00,056: INFO/ForkPoolWorker-7] Task beat_test[496b1106-161e-4dd6-aa82-6a06a27dcccd] succeeded in 0.0012800940003216965s: None
+[2024-03-19 09:32:00,054: INFO/MainProcess] Task beat_test[3fdfc656-ca7b-4954-b184-bfaf307b3f98] received
+[2024-03-19 09:32:00,056: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:32:00,057: INFO/ForkPoolWorker-7] Task beat_test[3fdfc656-ca7b-4954-b184-bfaf307b3f98] succeeded in 0.0012775410014000954s: None
+[2024-03-19 09:33:00,053: INFO/MainProcess] Task beat_test[9f483a87-74f6-4304-974e-b476bfb53a22] received
+[2024-03-19 09:33:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:33:00,056: INFO/ForkPoolWorker-7] Task beat_test[9f483a87-74f6-4304-974e-b476bfb53a22] succeeded in 0.0016821640001580818s: None
+[2024-03-19 09:34:00,054: INFO/MainProcess] Task beat_test[fa4be7ac-e747-4f6f-a720-c89ad7ab2228] received
+[2024-03-19 09:34:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:34:00,056: INFO/ForkPoolWorker-7] Task beat_test[fa4be7ac-e747-4f6f-a720-c89ad7ab2228] succeeded in 0.0011576870001590578s: None
+[2024-03-19 09:35:00,053: INFO/MainProcess] Task beat_test[e97e0746-92eb-4119-80fa-9613fdf3a58c] received
+[2024-03-19 09:35:00,054: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:35:00,056: INFO/ForkPoolWorker-7] Task beat_test[e97e0746-92eb-4119-80fa-9613fdf3a58c] succeeded in 0.0016635150004731258s: None
+[2024-03-19 09:36:00,030: INFO/MainProcess] Task beat_test[efa747b5-36c9-4d6f-b87e-4696f0c01bcf] received
+[2024-03-19 09:36:00,031: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:36:00,032: INFO/ForkPoolWorker-7] Task beat_test[efa747b5-36c9-4d6f-b87e-4696f0c01bcf] succeeded in 0.0012926899999001762s: None
+[2024-03-19 09:37:00,024: INFO/MainProcess] Task beat_test[5206d315-35b7-480a-beb3-2f3cf5b8577a] received
+[2024-03-19 09:37:00,026: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:37:00,027: INFO/ForkPoolWorker-7] Task beat_test[5206d315-35b7-480a-beb3-2f3cf5b8577a] succeeded in 0.0017643899991526268s: None
+[2024-03-19 09:38:00,054: INFO/MainProcess] Task beat_test[c51f9edb-1718-451b-aaed-43b7158897fe] received
+[2024-03-19 09:38:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:38:00,056: INFO/ForkPoolWorker-7] Task beat_test[c51f9edb-1718-451b-aaed-43b7158897fe] succeeded in 0.0011698310008796398s: None
+[2024-03-19 09:39:00,007: INFO/MainProcess] Task beat_test[b776d7ed-79a2-4ab0-b5fd-e40216eb105b] received
+[2024-03-19 09:39:00,008: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:39:00,009: INFO/ForkPoolWorker-7] Task beat_test[b776d7ed-79a2-4ab0-b5fd-e40216eb105b] succeeded in 0.0014495839986921055s: None
+[2024-03-19 09:40:00,057: INFO/MainProcess] Task beat_test[9bef3d1e-0cc5-4308-8ad5-82918a4cef14] received
+[2024-03-19 09:40:00,058: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:40:00,059: INFO/ForkPoolWorker-7] Task beat_test[9bef3d1e-0cc5-4308-8ad5-82918a4cef14] succeeded in 0.0013952580011391547s: None
+[2024-03-19 09:41:00,033: INFO/MainProcess] Task beat_test[f6d54db9-0c25-4280-8045-343a5efc5ab2] received
+[2024-03-19 09:41:00,035: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:41:00,036: INFO/ForkPoolWorker-7] Task beat_test[f6d54db9-0c25-4280-8045-343a5efc5ab2] succeeded in 0.0018449079998390516s: None
+[2024-03-19 09:42:00,054: INFO/MainProcess] Task beat_test[bd5e6811-b3c0-4f70-b49b-dfffb8117e05] received
+[2024-03-19 09:42:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:42:00,056: INFO/ForkPoolWorker-7] Task beat_test[bd5e6811-b3c0-4f70-b49b-dfffb8117e05] succeeded in 0.0012376359991321806s: None
+[2024-03-19 09:43:00,053: INFO/MainProcess] Task beat_test[7cea9bbe-d1b1-4011-9c26-218c9283fb86] received
+[2024-03-19 09:43:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:43:00,056: INFO/ForkPoolWorker-7] Task beat_test[7cea9bbe-d1b1-4011-9c26-218c9283fb86] succeeded in 0.0016730160004954087s: None
+[2024-03-19 09:44:00,046: INFO/MainProcess] Task beat_test[8703de64-1d4c-4555-8778-6ad73015643d] received
+[2024-03-19 09:44:00,047: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:44:00,048: INFO/ForkPoolWorker-7] Task beat_test[8703de64-1d4c-4555-8778-6ad73015643d] succeeded in 0.0013598690002254443s: None
+[2024-03-19 09:45:00,054: INFO/MainProcess] Task beat_test[b38b9fe4-dc01-49f6-a7b9-bddf346dfbaf] received
+[2024-03-19 09:45:00,056: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:45:00,057: INFO/ForkPoolWorker-7] Task beat_test[b38b9fe4-dc01-49f6-a7b9-bddf346dfbaf] succeeded in 0.0016626569995423779s: None
+[2024-03-19 09:46:00,053: INFO/MainProcess] Task beat_test[3474f088-9940-4796-9070-4061e0c925b7] received
+[2024-03-19 09:46:00,054: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:46:00,055: INFO/ForkPoolWorker-7] Task beat_test[3474f088-9940-4796-9070-4061e0c925b7] succeeded in 0.0012802929995814338s: None
+[2024-03-19 09:47:00,056: INFO/MainProcess] Task beat_test[7b43a954-2bac-4c8f-8f89-85d41b48fd9c] received
+[2024-03-19 09:47:00,058: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:47:00,059: INFO/ForkPoolWorker-7] Task beat_test[7b43a954-2bac-4c8f-8f89-85d41b48fd9c] succeeded in 0.0013120519997755764s: None
+[2024-03-19 09:48:00,054: INFO/MainProcess] Task beat_test[7e97208f-5981-4cd3-a355-50308d61bb71] received
+[2024-03-19 09:48:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:48:00,056: INFO/ForkPoolWorker-7] Task beat_test[7e97208f-5981-4cd3-a355-50308d61bb71] succeeded in 0.0014280499999586027s: None
+[2024-03-19 09:49:00,013: INFO/MainProcess] Task beat_test[6eb7cd04-2d93-418c-b341-ce38b63601f2] received
+[2024-03-19 09:49:00,015: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:49:00,016: INFO/ForkPoolWorker-7] Task beat_test[6eb7cd04-2d93-418c-b341-ce38b63601f2] succeeded in 0.0016396840001107194s: None
+[2024-03-19 09:50:00,041: INFO/MainProcess] Task beat_test[e03c842e-a224-4aab-9538-57b327018703] received
+[2024-03-19 09:50:00,041: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:50:00,042: INFO/ForkPoolWorker-7] Task beat_test[e03c842e-a224-4aab-9538-57b327018703] succeeded in 0.0008380380004382459s: None
+[2024-03-19 09:51:00,044: INFO/MainProcess] Task beat_test[af624260-7f4a-416b-b46a-f310b24624b1] received
+[2024-03-19 09:51:00,045: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:51:00,047: INFO/ForkPoolWorker-7] Task beat_test[af624260-7f4a-416b-b46a-f310b24624b1] succeeded in 0.0017258000007132068s: None
+[2024-03-19 09:52:00,045: INFO/MainProcess] Task beat_test[2363ceb8-0bcc-4eae-9a31-f7deebab773b] received
+[2024-03-19 09:52:00,047: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:52:00,047: INFO/ForkPoolWorker-7] Task beat_test[2363ceb8-0bcc-4eae-9a31-f7deebab773b] succeeded in 0.0010155349991691764s: None
+[2024-03-19 09:53:00,052: INFO/MainProcess] Task beat_test[77656ee6-d844-428d-b5d8-8430b80163de] received
+[2024-03-19 09:53:00,053: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:53:00,054: INFO/ForkPoolWorker-7] Task beat_test[77656ee6-d844-428d-b5d8-8430b80163de] succeeded in 0.0013169859994377475s: None
+[2024-03-19 09:54:00,057: INFO/MainProcess] Task beat_test[a6b8b2b2-926b-4aca-95bc-283365087e78] received
+[2024-03-19 09:54:00,058: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:54:00,059: INFO/ForkPoolWorker-7] Task beat_test[a6b8b2b2-926b-4aca-95bc-283365087e78] succeeded in 0.0010269779995724093s: None
+[2024-03-19 09:55:00,046: INFO/MainProcess] Task beat_test[dbb5be8a-be92-41dc-82a8-fb2e196e5205] received
+[2024-03-19 09:55:00,047: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:55:00,049: INFO/ForkPoolWorker-7] Task beat_test[dbb5be8a-be92-41dc-82a8-fb2e196e5205] succeeded in 0.0015395270002045436s: None
+[2024-03-19 09:56:00,044: INFO/MainProcess] Task beat_test[5d7a9141-94e4-4fb2-ab49-f09c9484b2af] received
+[2024-03-19 09:56:00,046: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:56:00,047: INFO/ForkPoolWorker-7] Task beat_test[5d7a9141-94e4-4fb2-ab49-f09c9484b2af] succeeded in 0.0017741920000844402s: None
+[2024-03-19 09:57:00,055: INFO/MainProcess] Task beat_test[03cc6e4d-8a70-4173-ac38-a758339c5845] received
+[2024-03-19 09:57:00,056: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:57:00,058: INFO/ForkPoolWorker-7] Task beat_test[03cc6e4d-8a70-4173-ac38-a758339c5845] succeeded in 0.0018532579997554421s: None
+[2024-03-19 09:58:00,010: INFO/MainProcess] Task beat_test[95abe03c-c742-4dc0-8e38-a31732558e6d] received
+[2024-03-19 09:58:00,011: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:58:00,013: INFO/ForkPoolWorker-7] Task beat_test[95abe03c-c742-4dc0-8e38-a31732558e6d] succeeded in 0.0015524800001003314s: None
+[2024-03-19 09:59:00,053: INFO/MainProcess] Task beat_test[f2deb1b6-526d-49e5-9777-9cca1a10b444] received
+[2024-03-19 09:59:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 09:59:00,056: INFO/ForkPoolWorker-7] Task beat_test[f2deb1b6-526d-49e5-9777-9cca1a10b444] succeeded in 0.0017407129998900928s: None
+[2024-03-19 10:00:00,046: INFO/MainProcess] Task beat_test[59c1029b-4dc0-4f45-885d-27ae24b1413a] received
+[2024-03-19 10:00:00,047: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:00:00,048: INFO/ForkPoolWorker-7] Task beat_test[59c1029b-4dc0-4f45-885d-27ae24b1413a] succeeded in 0.0014215239989425754s: None
+[2024-03-19 10:01:00,026: INFO/MainProcess] Task beat_test[39e78027-83e0-43c9-9d26-719d938f80e4] received
+[2024-03-19 10:01:00,027: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:01:00,029: INFO/ForkPoolWorker-7] Task beat_test[39e78027-83e0-43c9-9d26-719d938f80e4] succeeded in 0.001424665000740788s: None
+[2024-03-19 10:02:00,002: INFO/MainProcess] Task beat_test[a5f7d77b-3927-4844-a7b2-c5d59a94abe1] received
+[2024-03-19 10:02:00,002: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:02:00,003: INFO/ForkPoolWorker-7] Task beat_test[a5f7d77b-3927-4844-a7b2-c5d59a94abe1] succeeded in 0.0011426119999669027s: None
+[2024-03-19 10:03:00,029: INFO/MainProcess] Task beat_test[b0fa2115-e363-4220-91b6-5a113a0dddcd] received
+[2024-03-19 10:03:00,031: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:03:00,032: INFO/ForkPoolWorker-7] Task beat_test[b0fa2115-e363-4220-91b6-5a113a0dddcd] succeeded in 0.001851126999099506s: None
+[2024-03-19 10:04:00,044: INFO/MainProcess] Task beat_test[0443c2e5-01e7-4300-a8e8-95260da5e485] received
+[2024-03-19 10:04:00,045: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:04:00,046: INFO/ForkPoolWorker-7] Task beat_test[0443c2e5-01e7-4300-a8e8-95260da5e485] succeeded in 0.0017102540004998446s: None
+[2024-03-19 10:05:00,051: INFO/MainProcess] Task beat_test[393d0e90-3442-49e7-baa8-fe79f35ddb7a] received
+[2024-03-19 10:05:00,051: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:05:00,052: INFO/ForkPoolWorker-7] Task beat_test[393d0e90-3442-49e7-baa8-fe79f35ddb7a] succeeded in 0.0007492839995393297s: None
+[2024-03-19 10:06:00,054: INFO/MainProcess] Task beat_test[e711cad8-04e7-4a7e-8e94-210ffedddd92] received
+[2024-03-19 10:06:00,056: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:06:00,057: INFO/ForkPoolWorker-7] Task beat_test[e711cad8-04e7-4a7e-8e94-210ffedddd92] succeeded in 0.0017463900003349409s: None
+[2024-03-19 10:07:00,056: INFO/MainProcess] Task beat_test[c669503e-dcd9-4036-8d01-443dbdb73122] received
+[2024-03-19 10:07:00,058: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:07:00,059: INFO/ForkPoolWorker-7] Task beat_test[c669503e-dcd9-4036-8d01-443dbdb73122] succeeded in 0.0011890910009242361s: None
+[2024-03-19 10:08:00,052: INFO/MainProcess] Task beat_test[ff6df4e8-cefe-414f-8fee-3b5ae11b4667] received
+[2024-03-19 10:08:00,052: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:08:00,053: INFO/ForkPoolWorker-7] Task beat_test[ff6df4e8-cefe-414f-8fee-3b5ae11b4667] succeeded in 0.001065080999978818s: None
+[2024-03-19 10:09:00,054: INFO/MainProcess] Task beat_test[269907d6-0249-445b-862a-733970f1abfe] received
+[2024-03-19 10:09:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:09:00,056: INFO/ForkPoolWorker-7] Task beat_test[269907d6-0249-445b-862a-733970f1abfe] succeeded in 0.0015306940003938507s: None
+[2024-03-19 10:10:00,051: INFO/MainProcess] Task beat_test[c0400a3f-b79c-4b88-bcb9-5c2c62405e7b] received
+[2024-03-19 10:10:00,052: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:10:00,053: INFO/ForkPoolWorker-7] Task beat_test[c0400a3f-b79c-4b88-bcb9-5c2c62405e7b] succeeded in 0.0009143989991571289s: None
+[2024-03-19 10:11:00,084: INFO/MainProcess] Task beat_test[f0de4a8e-dd5b-4d9e-a3a1-b0a771acc460] received
+[2024-03-19 10:11:00,086: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:11:00,087: INFO/ForkPoolWorker-7] Task beat_test[f0de4a8e-dd5b-4d9e-a3a1-b0a771acc460] succeeded in 0.0017248370004381286s: None
+[2024-03-19 10:12:00,051: INFO/MainProcess] Task beat_test[ffa9d76b-43e8-4623-abd1-399399970e53] received
+[2024-03-19 10:12:00,052: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:12:00,052: INFO/ForkPoolWorker-7] Task beat_test[ffa9d76b-43e8-4623-abd1-399399970e53] succeeded in 0.0006783820008422481s: None
+[2024-03-19 10:13:00,054: INFO/MainProcess] Task beat_test[a4e98e42-c836-4ad9-a5ae-a3081b9ab8e4] received
+[2024-03-19 10:13:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:13:00,057: INFO/ForkPoolWorker-7] Task beat_test[a4e98e42-c836-4ad9-a5ae-a3081b9ab8e4] succeeded in 0.001689245998932165s: None
+[2024-03-19 10:14:00,053: INFO/MainProcess] Task beat_test[31a52f73-19fc-4eac-9cb2-c98bc62a231b] received
+[2024-03-19 10:14:00,054: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:14:00,055: INFO/ForkPoolWorker-7] Task beat_test[31a52f73-19fc-4eac-9cb2-c98bc62a231b] succeeded in 0.0010333170012017945s: None
+[2024-03-19 10:15:00,058: INFO/MainProcess] Task beat_test[68e494f0-82b8-415b-8dc4-a4804b459704] received
+[2024-03-19 10:15:00,060: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:15:00,061: INFO/ForkPoolWorker-7] Task beat_test[68e494f0-82b8-415b-8dc4-a4804b459704] succeeded in 0.0015171100003499305s: None
+[2024-03-19 10:16:00,004: INFO/MainProcess] Task beat_test[3e4c788b-e900-48bc-8686-906a2406368f] received
+[2024-03-19 10:16:00,006: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:16:00,007: INFO/ForkPoolWorker-7] Task beat_test[3e4c788b-e900-48bc-8686-906a2406368f] succeeded in 0.001812808000977384s: None
+[2024-03-19 10:17:00,054: INFO/MainProcess] Task beat_test[aec568b7-9c1a-43aa-83a1-2f7cee8bd55d] received
+[2024-03-19 10:17:00,056: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:17:00,057: INFO/ForkPoolWorker-7] Task beat_test[aec568b7-9c1a-43aa-83a1-2f7cee8bd55d] succeeded in 0.0013446350003505358s: None
+[2024-03-19 10:18:00,034: INFO/MainProcess] Task beat_test[09057902-18c3-43d8-80ed-8543f1238517] received
+[2024-03-19 10:18:00,036: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:18:00,037: INFO/ForkPoolWorker-7] Task beat_test[09057902-18c3-43d8-80ed-8543f1238517] succeeded in 0.0011910199991689296s: None
+[2024-03-19 10:19:00,035: INFO/MainProcess] Task beat_test[f5e8cfa8-426e-4b40-9f56-e7dada231636] received
+[2024-03-19 10:19:00,036: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:19:00,038: INFO/ForkPoolWorker-7] Task beat_test[f5e8cfa8-426e-4b40-9f56-e7dada231636] succeeded in 0.0014546279999194667s: None
+[2024-03-19 10:20:00,051: INFO/MainProcess] Task beat_test[b42f29b4-7dda-4013-8a21-1e680afe2bf3] received
+[2024-03-19 10:20:00,052: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:20:00,053: INFO/ForkPoolWorker-7] Task beat_test[b42f29b4-7dda-4013-8a21-1e680afe2bf3] succeeded in 0.0009181210007227492s: None
+[2024-03-19 10:21:00,035: INFO/MainProcess] Task beat_test[1f342b26-aac0-4cf7-af68-e7d192ae2508] received
+[2024-03-19 10:21:00,036: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:21:00,037: INFO/ForkPoolWorker-7] Task beat_test[1f342b26-aac0-4cf7-af68-e7d192ae2508] succeeded in 0.0012341710007603979s: None
+[2024-03-19 10:22:00,054: INFO/MainProcess] Task beat_test[cdd4ae7b-cac3-4751-bc41-27ab403905d2] received
+[2024-03-19 10:22:00,055: WARNING/ForkPoolWorker-7] BEAT SERVICE IS OK
+[2024-03-19 10:22:00,055: INFO/ForkPoolWorker-7] Task beat_test[cdd4ae7b-cac3-4751-bc41-27ab403905d2] succeeded in 0.0007694480009377003s: None
